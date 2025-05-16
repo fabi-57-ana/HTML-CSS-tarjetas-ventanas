@@ -1,0 +1,35 @@
+body{
+    background-color: grey;
+}
+.card{
+    background-color: coral;
+    color: white;
+    /* alineo titulo y texto */
+    text-align: center;
+    width: 300px;
+    /* centro card en body */
+    margin: auto;
+    /* separo card top de body horizontal*/
+    margin-top: 50px;
+}
+.card-title{
+    /* separo card del borde de body */
+    padding-top: 10px;
+    /* tamaño title */
+    font-size: 22px;
+    /* centro title */
+    margin: 0;
+}
+.card-subtitle{
+    font-size: 13px;
+    /* grosor de letra */
+    font-weight: 100;
+    /* espacio entre letras */
+    letter-spacing: 2px;
+}
+.card-content{
+    font-size: 9px;
+    padding: 20px;
+    background-color: lightcoral;
+    text-align: justify;
+}

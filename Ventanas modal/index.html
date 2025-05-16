@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylos.css">
+    <title>Ventana modal</title>
+</head>
+
+<body>
+    <h1>VENTANAS MODAL <br>
+        MODAL WINDOWS</h1>
+    <hr> 
+    <!-- Cuando usemos el metodo dialog y tengamos un boton
+    cualquier boton que apretemos que este dentro de una
+    etiqueta form con el metodo dialog, dentro de un dialog
+    va a hacerque se cierre ese dialogo automaticamente
+    es un form metod dialog adentro metemos un boton
+    le damos estilos, le damos click y automaticamente se
+    va a cerrar, pasa de ser open a estar sin open
+    (para recargar ventana pongo open), no necesitamos 
+    que la posicion sea absoluta, porque dialog viene 
+    configurado asi-->
+    <dialog open=""> 
+        <div class="modal__content">
+            <h2 class="modal__title">VENTANA MODAL</h2>
+            <p class="modal__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa cupiditate quis provident tenetur,
+                labore
+                libero ad sequi, eius adipisci illo nulla nemo dignissimos non. Iste cumque eum labore eius.
+                Reprehenderit?
+            </p>
+            <form method="dialog">
+                <button class="modal__close-button">X</button> 
+            </form>
+        </div>
+    </dialog>
+    <div class="blur">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil vel quos atque illo, doloribus delectus reiciendis,
+        nemo iure neque libero dignissimos eos non repellendus ducimus. Nihil iure qui laudantium molestias. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Eos facere ipsa aut doloremque cum voluptas veritatis excepturi,
+        maiores neque cumque rerum autem quaerat est itaque quisquam nemo exercitationem voluptatibus porro?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, doloremque incidunt aliquid deleniti
+        asperiores nobis quisquam. Cumque eius eaque laborum dolore nobis tempora necessitatibus quaerat voluptates
+        obcaecati. Earum, rem dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, sapiente natus.
+        Facilis autem suscipit saepe excepturi quae, quod modi impedit aspernatur eaque esse! Ut facere consectetur harum
+        perferendis, suscipit officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, suscipit dicta?
+        Voluptatem minus similique tempora, modi, sapiente dolorem, incidunt exercitationem cumque quibusdam eveniet hic
+        quidem. Officia dicta hic libero eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis
+        amet sit repudiandae doloribus velit reprehenderit ducimus quod illo nisi dolores accusamus laboriosam ipsa, nam
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id suscipit, dolor similique dicta consectetur fugit
+        blanditiis? Eveniet consequatur quidem quam omnis numquam consectetur, repudiandae, amet nisi facere ex, deserunt
+        mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius officia assumenda deserunt, voluptate
+        beatae aspernatur cupiditate labore sequi ex blanditiis similique voluptatibus debitis ullam commodi vitae at
+        obcaecati, consequatur laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore earum officiis
+        debitis eos ad placeat perspiciatis quisquam facere magnam laboriosam, aliquam, necessitatibus voluptas doloribus
+        excepturi repellendus in culpa, molestias dolores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+        dicta sunt aliquid repellendus nemo modi, at impedit eveniet blanditiis inventore, dolore, explicabo neque
+        consequatur iste! Modi inventore earum excepturi aut?
+        fugiat voluptas hic recusandae! Error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam ratione
+        omnis? Consequatur, impedit, facilis exercitationem maiores officia minus, dolor ea harum temporibus culpa autem
+        excepturi doloremque quae laudantium dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque
+        et natus minima eligendi nobis odio quo repudiandae a obcaecati aliquam consequatur, quasi laborum cum error modi
+        maxime quas! Maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime iure vero quidem laboriosam
+        molestiae dicta nulla itaque vitae atque ad, adipisci libero repellendus ab placeat quisquam aperiam debitis eaque
+        tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quia tempora ullam exercitationem dolorem
+        obcaecati architecto deserunt ut quisquam doloribus maxime magni, distinctio veniam quidem illum fuga omnis hic
+        aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora culpa nulla, dolore accusantium veniam,
+        quos error repudiandae necessitatibus dignissimos id magnam excepturi voluptate assumenda minima qui dolor alias ut
+        unde! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic quos tenetur totam obcaecati aliquam, architecto
+        esse dolor enim alias consequuntur repellendus iste aliquid optio temporibus voluptas inventore et tempore?
+        Aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dicta in nesciunt veniam eligendi
+        iusto fugiat facilis cum obcaecati incidunt, quae dolore quia. Quam temporibus ullam officia? Possimus, nihil
+        fugiat.
+    </div>
+    <!-- <script>
+        document.querySelector(
+            ".modal__close-button")
+            addEventListener("click"
+                ,()=>{document.querySelector
+                    (".modal").style.display="none" s
+                }
+            )
+    </script> -->
+    <!-- seleccionamos al boton y cuando 
+    se le de click ejecutamos el codigo
+    que selecciona la ventana modal completa
+    y con la ventana modal accede a sus estilos
+    la propiedad display y le da none-->
+    <!-- para recargar al ventana modal 
+    s enter, borramos s enter y hacemos 
+    click en x de la ventana, desaparece 
+    ventana y volvemos recargar con s -->
+</body>
+
+</html>
